@@ -6,7 +6,7 @@ import collections from "@/data/collections.json";
 import Dropdown from "@/components/Dropwdown";
 
 export default function Home() {
-  const [collection, setCollection] = useState("Swimsuit");
+  const [collection, setCollection] = useState("Beauty");
 
   return (
     <main className="">
@@ -62,7 +62,7 @@ export default function Home() {
 
       <section>
         <div className="w-full flex items-center justify-between space-x-2 p-2">
-          {["Swimsuit", "Beauty", "Editorial", "Shows"].map((category) => (
+          {["Beauty", "Swimsuit", "Editorial", "Shows"].map((category) => (
             <button
               key={category}
               onClick={() => setCollection(category)}

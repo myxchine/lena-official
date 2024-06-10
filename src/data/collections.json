@@ -5,7 +5,15 @@
     "/images/swim/2.JPG",
     "/images/swim/14.JPG"
   ],
-  "Beauty": ["/images/beauty/3.JPG", "/images/beauty/2.JPG"],
+  "Beauty": [
+    "/images/beauty/10.JPG",
+    "/images/beauty/11.JPG",
+    "/images/beauty/12.JPG",
+
+    "/images/beauty/51.JPG",
+    "/images/beauty/52.JPG",
+    "/images/beauty/53.JPG"
+  ],
   "Editorial": [
     "/images/editorial/2.JPG",
     "/images/editorial/12.JPG",
@@ -13,6 +21,9 @@
     "/images/editorial/16.JPG"
   ],
   "Shows": [
+    "/images/shows/7.JPG",
+    "/images/shows/91.JPG",
+    "/images/shows/92.JPG",
     "/images/shows/30.JPG",
     "/images/shows/12.JPG",
     "/images/shows/10.JPG",
