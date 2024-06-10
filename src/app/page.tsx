@@ -20,13 +20,6 @@ export default function Home() {
       </div>
 
       <section className="px-2 mb-4">
-
-
-      <Dropdown title="Measurements">
-
-
-      </Dropdown>
-
         <Dropdown title="Measurements">
           <ul>
             {[

@@ -1,21 +1,24 @@
 {
   "Swimsuit": [
-    "/images/swim/1.JPG",
-    "/images/swim/3.JPG",
-    "/images/swim/2.JPG",
-    "/images/swim/14.JPG"
+    "https://lenapietrzak.vercel.app/images/swim/1.JPG",
+    "https://lenapietrzak.vercel.app/images/swim/3.JPG",
+    "https://lenapietrzak.vercel.app/images/swim/2.JPG",
+    "https://lenapietrzak.vercel.app/images/swim/14.JPG"
   ],
-  "Beauty": ["/images/beauty/3.JPG", "/images/beauty/2.JPG"],
+  "Beauty": [
+    "https://lenapietrzak.vercel.app/images/beauty/3.JPG",
+    "https://lenapietrzak.vercel.app/images/beauty/2.JPG"
+  ],
   "Editorial": [
-    "/images/editorial/2.JPG",
-    "/images/editorial/12.JPG",
-    "/images/editorial/14.JPG",
-    "/images/editorial/16.JPG"
+    "https://lenapietrzak.vercel.app/images/editorial/2.JPG",
+    "https://lenapietrzak.vercel.app/images/editorial/12.JPG",
+    "https://lenapietrzak.vercel.app/images/editorial/14.JPG",
+    "https://lenapietrzak.vercel.app/images/editorial/16.JPG"
   ],
   "Shows": [
-    "/images/shows/30.JPG",
-    "/images/shows/12.JPG",
-    "/images/shows/10.JPG",
-    "/images/shows/9.JPG"
+    "https://lenapietrzak.vercel.app/images/shows/30.JPG",
+    "https://lenapietrzak.vercel.app/images/shows/12.JPG",
+    "https://lenapietrzak.vercel.app/images/shows/10.JPG",
+    "https://lenapietrzak.vercel.app/images/shows/9.JPG"
   ]
 }
