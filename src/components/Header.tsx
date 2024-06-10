@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="stick top-0 w-full flex flex-row items-center justify-between p-4">
+    <header className="sticky top-0 w-full flex flex-row items-center justify-between p-4">
       <Link href="/">
         <MdOutlinePhoto className="text-2xl" />
       </Link>
