@@ -1,11 +1,21 @@
 {
-  "Swimsuit": ["/swim/1.jpg", "/swim/3.jpg", "/swim/2.jpg", "/swim/14.jpg"],
-  "Beauty": ["/beauty/3.jpg", "/beauty/2.jpg"],
-  "Editorial": [
-    "/editorial/2.jpg",
-    "/editorial/12.jpg",
-    "/editorial/14.jpg",
-    "/editorial/16.jpg"
+  "Swimsuit": [
+    "/images/swim/1.jpg",
+    "/images/swim/3.jpg",
+    "/images/swim/2.jpg",
+    "/images/swim/14.jpg"
   ],
-  "Shows": ["/shows/30.jpg", "/shows/12.jpg", "/shows/10.jpg", "/shows/9.jpg"]
+  "Beauty": ["/images/beauty/3.jpg", "/images/beauty/2.jpg"],
+  "Editorial": [
+    "/images/editorial/2.jpg",
+    "/images/editorial/12.jpg",
+    "/images/editorial/14.jpg",
+    "/images/editorial/16.jpg"
+  ],
+  "Shows": [
+    "/images/shows/30.jpg",
+    "/images/shows/12.jpg",
+    "/images/shows/10.jpg",
+    "/images/shows/9.jpg"
+  ]
 }
