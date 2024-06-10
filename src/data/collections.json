@@ -2,17 +2,31 @@
   "Swimsuit": [
     "/images/swim/1.JPG",
     "/images/swim/3.JPG",
+
     "/images/swim/2.JPG",
-    "/images/swim/14.JPG"
+    "/images/swim/5.JPG",
+    "/images/swim/14.JPG",
+
+    "/images/swim/16.JPG",
+    "/images/swim/6.JPG"
   ],
   "Beauty": [
     "/images/beauty/10.JPG",
     "/images/beauty/11.JPG",
     "/images/beauty/12.JPG",
 
+    "/images/beauty/polar4.JPG",
+    "/images/beauty/polar1.JPG",
+    "/images/beauty/polar2.JPG",
+    "/images/beauty/polar3.JPG",
+
     "/images/beauty/51.JPG",
     "/images/beauty/52.JPG",
-    "/images/beauty/53.JPG"
+    "/images/beauty/53.JPG",
+
+    "/images/beauty/1.JPG",
+    "/images/beauty/2.JPG",
+    "/images/beauty/3.JPG"
   ],
   "Editorial": [
     "/images/editorial/2.JPG",

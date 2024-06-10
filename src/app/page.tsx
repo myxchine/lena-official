@@ -19,7 +19,9 @@ export default function Home() {
         </header>
       </div>
 
-      <section className="px-2 mb-4">
+      <section className="px-4">
+        <div className="border-t border-black/10 w-full mb-8 hidden"></div>
+
         <Dropdown title="Measurements">
           <ul>
             {[
@@ -58,9 +60,11 @@ export default function Home() {
             <li>Downtown LA/NY/Miama</li>
           </ul>
         </Dropdown>
+
+        <div className="border-b border-black/10 w-full mt-8 hidden"></div>
       </section>
 
-      <section>
+      <section className="pt-8">
         <div className="w-full flex items-center justify-between space-x-2 p-2">
           {["Beauty", "Swimsuit", "Editorial", "Shows"].map((category) => (
             <button
