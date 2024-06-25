@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Footer from "./Footer";
 
 export default function RootLayout({
   children,
@@ -10,7 +10,7 @@ export default function RootLayout({
       <h1 className="text-xl font-bold ">Categories</h1>
 
       {children}
-      <Header />
+      <Footer />
     </div>
   );
 }
