@@ -4,6 +4,7 @@ import { Photo, Category } from "@/server/types";
 import Image from "next/image";
 import { useState } from "react";
 import { addPhotoToCategory } from "@/server/db/utils";
+import { useRouter } from "next/navigation";
 
 export default function Home({
   photos,
@@ -14,6 +15,7 @@ export default function Home({
 }) {
   const [selectedPhoto, setSelectedPhoto] = useState<Photo | null>(null);
   const [showPopup, setShowPopup] = useState(false);
+  const router = useRouter();
 
   const handleClick = (photo: Photo) => {
     setSelectedPhoto(photo);
@@ -25,6 +27,7 @@ export default function Home({
       addPhotoToCategory(selectedPhoto.id, categoryId);
       setShowPopup(false);
       setSelectedPhoto(null);
+      router.refresh();
     }
   };
 
