@@ -5,7 +5,7 @@ import { photos, categories, photosToCategories } from "./schema";
 import { eq, and } from "drizzle-orm";
 
 export const verifyPassword = async (password: string) => {
-  const result = (password === process.env.ADMIN_PASSWORD) as boolean;
+  const result = (password == process.env.ADMIN_PASSWORD) as boolean;
   return result;
 };
 
