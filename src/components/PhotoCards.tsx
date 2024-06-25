@@ -6,7 +6,7 @@ const PhotoCards = ({ data }: { data: string[] }) => {
       {data.map((url, index) => (
         <div key={index} className="w-full">
           <Image
-            src={url}
+            src={`/images/all/${url}`}
             alt={`Image ${index + 1}`}
             width={400}
             height={600}
