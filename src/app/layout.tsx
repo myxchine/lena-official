@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
+import Header from "@/components/Header2";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Lena Pietrzak",
-  description: "Curated by Duality Media",
+  description:
+    "Fashion Model in Paris studying at IFM, Institut Français de la Mode. Originally from Poland and raised in Portugal.",
 };
 
 export default function RootLayout({
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} max-w-3xl mx-auto`}>
+        <Header />
+
+        {children}
+      </body>
     </html>
   );
 }
