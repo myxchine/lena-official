@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   openGraph: {
     type: "website",
-    locale: "en_US",
     url: "https://lenaptzk.com",
     title: "Lena Pietrzak",
     description:
