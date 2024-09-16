@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
   title: "Lena Pietrzak",
   description:
     "Fashion Model in Paris studying at IFM, Institut Français de la Mode. Originally from Poland and raised in Portugal.",
