@@ -77,8 +77,9 @@ function Hero() {
           Lena Pietrzak
         </h1>
         <p className=" md:text-lg text-center max-w-sm text-balance">
-          Fashion Model in Paris studying at IFM, Institut Français de la Mode.
-          Originally from Poland and raised in Portugal.
+          I am Lena Barbara Pietrzak, a Fashion Model now in Paris, studying at
+          IFM, Institut Français de la Mode. Originally from Poland and raised
+          in Portugal, love London.
         </p>
         <Link
           href="/portfolio"
