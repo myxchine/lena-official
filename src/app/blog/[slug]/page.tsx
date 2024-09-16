@@ -42,7 +42,6 @@ export default function Site({ params }: { params: { slug: string } }) {
           My Portfolio {"->"}
         </Link>
         <p className=" w-full">{post.content}</p>
-        {post.content}
 
         <Link
           href={"/portfolio"}
