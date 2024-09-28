@@ -15,7 +15,7 @@ function Blog() {
     <div className="w-full ">
       <section className="flex flex-col gap-12 p-6 w-full ">
         <div className="flex flex-col gap-4">
-          <h2 className="text-3xl md:text-5xl">Blog</h2>
+          <h2 className="text-3xl md:text-5xl">Camel blog</h2>
           <p className="text-sm text-foreground/60 md:text-lg text-balance">
             A collection of articles dedicated to Lena Pietrzak's experiences
             and insights.
